@@ -2,9 +2,7 @@ package com.employee.management.controller;
 
 import com.employee.management.request.UpdateEmployeeRequest;
 import com.employee.management.service.EmployeeService;
-import com.employee.management.util.Output;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,7 +13,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.employee.management.request.EmployeeCreationRequest;
-import com.employee.management.service.EmployeeMgmtService;
 
 import java.util.HashMap;
 import java.util.concurrent.CompletableFuture;
